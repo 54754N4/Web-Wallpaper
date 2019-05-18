@@ -1,0 +1,46 @@
+* {	/*basic reset */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background: black;
+}
+
+#c {
+	position: absolute;
+	z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#search {
+	position: relative;
+	/* margin=auto needs to know width and height or it wont work */
+	padding: 15em;
+	margin: auto;
+	z-index: 2;
+}
+
+#q {
+	display: block;
+	height: 25px;
+	text-align: center;
+	border-style: inset;
+	border-width: 2px;
+	border-radius: 25px;
+}
+
+#logo {
+	margin-left: 86px;		/* img = 100, total = 272 so we need (272-100)/2=86 */
+	margin-bottom: 25px;
+	width: 100px;
+	height: 100px;
+	filter: hue-rotate(140);
+}
+
+.base {
+	width: 272px;
+}

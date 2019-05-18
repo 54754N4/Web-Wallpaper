@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <script src="lib.js" > </script>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body onload="init()">
+        <canvas id="c" ></canvas>
+        <div id="search" class="base" onmouseleave="hideInput()">
+            <img id="logo" class="base" src="welcome.gif" alt="Google Search" onmouseenter="showInput()"/> 
+            <input id="q" class="base" name="q" autocomplete="on" placeholder="Enter search input .." onkeydown="handleKeyDown(event)" type="url">
+        </div>
+    </body>
+</html>

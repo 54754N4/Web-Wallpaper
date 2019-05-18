@@ -1,0 +1,15 @@
+<html>
+    <head>
+		<meta charset="UTF-8"> 
+        <script src="lib.js" > </script>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body onload="init()" onresize="updateCanvasSize()">
+        <canvas id="c" ></canvas>
+        <div id="search" class="base" onmouseleave="hideInput()">
+			<!-- https://alehorn.com/wp-content/uploads/2016/10/mitsudomoe.jpg -->
+            <img id="logo" class="base" src="https://upload.wikimedia.org/wikipedia/commons/8/81/US_DOT_Triskelion.png" alt="Google Search" onmouseenter="showInput()"/> 
+            <input id="q" class="base" name="q" autocomplete="on" placeholder="Enter search input .." onkeydown="handleKeyDown(event)" type="url">
+        </div>
+    </body>
+</html>
