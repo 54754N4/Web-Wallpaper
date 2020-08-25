@@ -6,7 +6,9 @@ Hovering over the logo pops up a search input bar for commands or googling.
 
 # Instructions  
 Hover over logo to get search input box.
+
 ![Input bar hover image failed to load...][input]
+
 Type "help" then press enter if you want to know the available commands.
 Examples :
 1. mcol FF0000 	= make matrix color red (takes RGB input e.g. Green = 00FF00 or 0F0)
