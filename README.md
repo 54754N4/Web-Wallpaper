@@ -1,5 +1,6 @@
 # Web Wallpaper
 Simple matrix web wallpaper. Requests microphone permissions on load which allows droplets to react based on sound. Otherwise, acts like a normal matrix.
+Hovering over the logo pops up a search input bar for commands or googling.
 
 ![Wallpaper demo image failed to load...][demo]
 
