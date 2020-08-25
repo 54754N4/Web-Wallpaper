@@ -6,6 +6,7 @@ Hovering over the logo pops up a search input bar for commands or googling.
 
 # Instructions  
 Hover over logo to get search input box.
+![Input bar hover image failed to load...][input]
 Type "help" then press enter if you want to know the available commands.
 Examples :
 1. mcol FF0000 	= make matrix color red (takes RGB input e.g. Green = 00FF00 or 0F0)
@@ -24,4 +25,5 @@ Some Mainstream equivalents :
 
 You can obviously use any hexadecimal color for the matrix in the form of RGB or RRGGBB, and the logo is based on the angle of a radial color pallete.
 
-[demo]: https://github.com/54754N4/Web-Wallpaper/blob/master/demo.jpeg "Demo image"
+[demo]: https://github.com/54754N4/Web-Wallpaper/blob/master/demo.jpeg "Preview"
+[input]: https://github.com/54754N4/Web-Wallpaper/blob/master/input.jpeg "Hover over logo to popup input box"
