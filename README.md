@@ -1,5 +1,6 @@
 # Web Wallpaper
 Simple matrix web wallpaper. Requests microphone permissions on load which allows droplets to react based on sound. Otherwise, acts like a normal matrix.
+Hovering over the logo pops up a search input bar for commands or googling.
 
 ![Wallpaper demo image failed to load...][demo]
 
@@ -23,4 +24,4 @@ Some Mainstream equivalents :
 
 You can obviously use any hexadecimal color for the matrix in the form of RGB or RRGGBB, and the logo is based on the angle of a radial color pallete.
 
-[demo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+[demo]: https://github.com/54754N4/Web-Wallpaper/blob/master/demo.jpeg "Demo image"
